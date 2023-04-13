@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+<!-- linke css Stylesheet to this html file. -->
+<link rel="Stylesheet" href="style.css">
+
+<!-- Iport two goole fonts that are used to style the text -->
+<style>
+   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@500&display=swap');
+</style>
+</head>
+
+<body 
+class="backgroundColor"> <!-- Set the background color of the whole page -->
+   <header>
+      <br><br><br> <!--Creat some space so the header1AnetteLondal is not hidden behind the nav bar.  -->
+      <!-- Styling the header1AnetteLondal -->
+      <h1 
+      class="secenderyTextStyling"
+      id="header1AnetteLondal"> <i><bold>Anette Londal</bold></i></h1>
+
+      <!-- adding and styling the profile picture -->
+      <img id="introPicture" src="banner1.jpg" 
+      alt="Profile picture Anette Londal" width="75%" height="75%">
+      
+      <!-- Styling the text in the intro bio -->
+      <p
+      class="primeryTextStyling">
+         BIO</p>
+   </header>
+
+<!-- This is the nav bare -->
+   <nav> 
+      <!-- Creating the flexcontainer that is the area where the elements/link-buttons are to be -->
+      <div 
+         class="flexcontainer" id="navBarList">
+      <!-- creat the links to be able to jump the the different sections on this side -->   
+            <div 
+               class="navLinks" id="navBarListElementAboutMe">
+                  <a href="#header2AboutMe">About me</a>
+            </div>
+
+            <div 
+               class="navLinks" id="navBarListElementMySkills">
+                  <a href="#header2MySkills">My skills</a>
+            </div>
+
+            <div 
+               class="navLinks" id="navBarListElementEducation">
+                  <a href="#header2Education">Education</a>
+            </div>
+
+            <div 
+               class="navLinks" id="navBarListElementContactMe">
+                  <a href="#header2ContactMe">Contact me</a>
+            </div>
+      </div>
+   </nav>
+
+   <main>
+      <article>
+         <!-- Styling the header, re-using the class secenderyTextStyling -->
+         <h2
+         class="secenderyTextStyling" 
+         id="header2AboutMe">About me</h2>
+         
+         <!-- creat a flex container to be able easier modify the elements within. -->
+         <div
+         class="flexContainerStructureContentInMain">
+
+               <!-- Styling the paragraph using class primeryTextStyling. -->
+               <!-- Styling this flex element using the class flexElementStructureContentInMain -->
+               <p
+               class="primeryTextStyling"
+               class="flexElementStructureContentInMain" >
+               Write a little storry about me.</p>
+
+               <!-- Styling the paragraph using class primeryTextStyling. -->
+               <!-- Styling this flex element using the class flexElementStructureContentInMain -->
+               <p
+               class="primeryTextStyling"
+               class="flexElementStructureContentInMain">
+      
+                  <!-- Adding links to aditional information about me. -->
+                  <a href="https://gitlab.com/Ms.Niffi">
+                     My GitLab</a> <br>
+                  <a href="https://worldarchery.sport/profile/30283/londal-anette/biography">
+                     World Archery - world ranking</a> <br>
+                  <a href="https://docs.google.com/document/d/1mQaes21zD9AFs0uooJKuUP9UCQd4d9up1S7UZZon9Fk/edit?usp=drivesdk">
+                     My Archery Resume</a> <br>
+                  <a href="https://docs.google.com/document/d/1RVsgbVXfiPfgcaFaPVNPuxmZKl2Uqvnr7kBFXtoTwuA/edit?usp=drivesdk">
+                     My Resume</a>
+
+
+               </p>
+         </div>      
+      </article>
+     
+      <hr> <!-- Adding a line to devide -->
+
+
+      <article>
+         <!-- Styling the headder with class secenderyTextStyling -->
+         <h2 
+         class="secenderyTextStyling"
+         id="header2MySkills">My skills
+         </h2>
+
+      <!-- Creating a flexcontainer for the article about my skill, re-using the class flexContainerStructureContentInMain -->
+      <div
+         class="flexContainerStructureContentInMain">
+
+         <!-- Flex element for what other people say about me. Give this flex element the styling of class flexElementStructureContentInMain-->
+         <div
+            class="flexElementStructureContentInMain">
+
+            <!-- Styling the header with class secenderyTextStyling -->
+            <h3
+            class="secenderyTextStyling">
+         What other people say about me:</h3>
+         
+               <!-- Styling the unordered list with primeryTextStyling -->
+               <ul
+               class="primeryTextStyling">
+                  <li> Structured - Can prioritize tasks and are always on time and prepared</li>
+                  <li> Faglig sterk</li>
+                  <li> God til å reflektere over egen praksis</li>
+                  <li> Positiv humørspreder</li>
+                  <li> God musikksmak</li>
+               </ul>
+         </div>
+         
+          <!-- Flex element - description of my skills. Give this flex element the styling of class flexElementStructureContentInMain-->
+         <div
+            class="flexElementStructureContentInMain">
+           
+            <!-- Stylling the headder, re-using the class secenderyTextStyling -->
+            <h3
+            class="secenderyTextStyling">
+               My skills
+            </h3>
+            
+            <!-- Stylling the primery text, re-using the class primeryTextStyling -->
+            <p
+            class="primeryTextStyling">
+               Write how i view my skills.
+            </p>
+            </div>
+
+         </div>   
+      </article>
+     
+      <hr> <!-- Setting in a line to devide the contet -->
+
+      <article>
+         <!-- Stylling header re-using class secenderyTextStyling-->
+         <h2 
+         class="secenderyTextStyling"
+         id="header2Education">Education</h2>
+         
+         <!-- This is a flex continer for the article of Education. Re-using class flexContainerStructureContentInMain for styling -->
+         <div
+         class="flexContainerStructureContentInMain">
+            
+            <!-- This is a flex element withing flexContainerStructureContentInMain. This contains Schools / University paragraph.  -->
+            <div
+            class="flexElementStructureContentInMain">
+               
+               <!-- Styling of the headder with class secenderyTextStyling-->
+               <h3
+               class="secenderyTextStyling"
+       >          Schools / University</h3>
+                  
+                  <!-- Styling the list with class primeryTextStyling -->
+                  <dl
+                  class="primeryTextStyling">
+                     <dt>10.22 - 03.23:   Fullstack Java developer   Noroff</dt>
+                        <dd>6 month intensiv course. </dd>
+                     <dt>08.14 - 06.17:   Physiotheraphist bachelor   Oslo MET</dt>
+                        <dd>Authorisation from Norway as Physiotheraphist</dd>
+                  </dl>
+            </div>
+   
+            <!-- Flex element for the paragraph/list of courses / Sertificates -->
+            <div
+            class="flexElementStructureContentInMain">
+            
+            <!-- Styling headder with re-using class secenderyTextStyling -->
+            <h3
+            class="secenderyTextStyling"> Courses / Sertificates</h3>
+
+               <!-- Text styling detailed list with primeryTextStyling -->
+               <dl
+               class="primeryTextStyling">
+                  <dt>Legemiddel håndteringskurs</dt>
+                     <dd>Administrasjon og utdeling av legemidler inne helsetjenesten</dd>
+                  <dt>Grunnkurs lumbal/bekken</dt>
+                     <dd>Kurs i regi av NFF i undersøkesle og behandling av plager fra korsrygg og bekken.</dd>
+                  <dt>Trener 2 kurs i bueskyring</dt>
+                     <dd>Trenerkurs godkjent av NIF, spesifikt for bueskyting.</dd>
+                  <dt>H HLR kurs</dt>
+                     <dd>Førstehjelpskurs for helsepersonell</dd>
+                  <dt>Trener 1 kurs i bueskyring</dt>
+                     <dd>Trenerkurs godkjent av NIF, spesifikt for bueskyting.</dd>
+                </dl>
+            </div>
+         </div>
+</article>
+
+<hr> <!-- Setting in line to devide the content to sections-->
+   </main>
+
+   <footer>
+
+      <!-- Styling headder with class secenderyTextStyling -->
+      <h2 
+      class="secenderyTextStyling"
+      id="header2ContactMe">Contact me</h2>
+      
+      
+      <!-- Styling address section with style primeryTextStyling -->
+      <address
+      class="primeryTextStyling">
+         E-mail: <a href="londal.anette@gmail.com">londal.anette@gmail.com</a>
+      <br>   <!-- linebrak, put content on each line -->
+         Mobile: <a href="0047 415 879 50">+47 415 879 50</a>
+      <br> <!-- linebrak, put content on each line -->
+      <br> <!-- linebrak, put content on each line -->
+         LinkedIN :<a href="https://no.linkedin.com/in/anette-londal">https://no.linkedin.com/in/anette-londal</a>
+      <br> <!-- linebrak, put content on each line -->  
+       Physiotheraphist : <a href="https://kiropraktorgruppen.no/medarbeidere-andersen-klinikken/662-anette-londal">"https://kiropraktorgruppen.no/medarbeidere-andersen-klinikken/662-anette-londal</a>      
+      </address>
+      <hr> <!-- Creat line to devide content -->
+
+   </footer>
+</body>
+</html>

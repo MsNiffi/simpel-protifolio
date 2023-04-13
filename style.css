@@ -1,0 +1,67 @@
+/* Style element to color the background of the whole page */
+.backgroundColor{
+   background-color: #1E1E1E;
+}
+
+/* Style element to style the primery text */
+.primeryTextStyling {
+   color: white;
+   font-family: "Montserrat", sans-serif;
+   font-size: 20px;
+}
+
+/* Style element to style to secondery text like headders */
+.secenderyTextStyling{
+   font-family: 'Oswald', sans-serif;
+   color: #7200CB;
+   text-shadow: 1px 0 black, -1px 0 black, 0 1px black, 0 -1px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
+/* styling the nav bar flex container */
+.flexcontainer{
+display: flex; 
+justify-content: space-around;
+align-content: center;
+height: 27px;
+position: fixed; top: 0; width: 100%; 
+background-color: #1E1E1E;
+
+}
+
+/* Styling the nav bar elements - the link buttons */
+.navLinks a{
+text-decoration: none;
+font-size: 24px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+background-color: #1E1E1E;
+border-bottom: 5px #fa007d solid;
+color: #fa007d;
+padding-left: 30px;
+padding-right: 30px;
+
+}
+
+/* making the links cnage color when mouse hover over the link butten sin the nav bar */
+.navLinks a:hover{
+   color: white;
+   border-bottom-color: white;
+}
+
+/* Styling the flex containers in main */
+.flexContainerStructureContentInMain{
+   display: flex;
+   align-content: flex-start;
+   justify-content: space-around;
+}
+
+/* styling the elements in each flex container in main. */
+.flexElementStructureContentInMain{
+   flex-basis: 45%;
+}
+
+
+
+
+
